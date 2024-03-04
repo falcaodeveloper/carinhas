@@ -7,7 +7,7 @@ texto = '''
 substituto = '☺'
 aleatório = randint(1, 440)
 
-texto.insert(aleatório, substituto)
+texto[aleatório] = substituto
 texto = ' '.join(texto)
 
 print('\nENCONTRE A CARINHA DEFEITUOSA\n')
